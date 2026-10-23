@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "BounceHelper",
+  "version": "1.14.1",
+  "mode": "local-rebuild",
+  "archive": {
+    "path": "BounceHelper.zip",
+    "sha256": "91eca27c7453031fcce4234fe4051801f908d8f71f4a01a7f5e988c6ada470b2",
+    "downloadUrl": "https://gamebanana.com/mmdl/1795363",
+    "fileId": 1795363
+  },
+  "originalAssembly": {
+    "entry": "bin/BounceHelper.dll",
+    "sha256": "0b7f66310844fee346d2808718c19ea0493b7df8a42b214de19324551496b617"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "upstream": "https://gamebanana.com/mods/53761",
+  "recipe": "Recipe/recipe.json",
+  "assemblyName": "Celeste.Mods.BounceHelper",
+  "dependencies": [],
+  "archiveSources": [
+    {
+      "entry": "Source/BounceHelperModule.cs",
+      "path": "BounceHelper/BounceHelperModule.cs",
+      "sha256": "168c41c880dbf93e5f39165d139a83951cb31475b7817e6bd6c8ec844383278d"
+    },
+    {
+      "entry": "Source/BounceHelperModuleSettings.cs",
+      "path": "BounceHelper/BounceHelperModuleSettings.cs",
+      "sha256": "b9a07a6f895d5ab3c05c06929f3a7772c1570b8caa58f4ffdf00afba4a3b52b3"
+    },
+    {
+      "entry": "Source/Entities/BounceBumper.cs",
+      "path": "BounceHelper/BounceBumper.cs",
+      "sha256": "2ba770a4976470db0c8f2697548177de929a97ec360b2209109bd67e8fc1abcc"
+    },
+    {
+      "entry": "Source/Entities/BounceDreamBlock.cs",
+      "path": "BounceHelper/BounceDreamBlock.cs",
+      "sha256": "128613fb71df6c0c465b3e0cead9bdbe9363332a836e1f1ae520a69ee9aafc90"
+    },
+    {
+      "entry": "Source/Entities/BounceFallingBlock.cs",
+      "path": "BounceHelper/BounceFallingBlock.cs",
+      "sha256": "8d358aab07ab51304ef751619f23de1b357ebe7dacb87d4e8d0048237d30017d"
+    },
+    {
+      "entry": "Source/Entities/BounceHelperTrigger.cs",
+      "path": "BounceHelper/BounceHelperTrigger.cs",
+      "sha256": "6996203afa8188186790cf5df37c071e360aa10f81c483dd385519816b792239"
+    },
+    {
+      "entry": "Source/Entities/BounceJellyFish.cs",
+      "path": "BounceHelper/BounceJellyFish.cs",
+      "sha256": "fe985f06a1b91a2cf9034d82fe0855bfbbc6589ff329993284060151e08afc97"
+    },
+    {
+      "entry": "Source/Entities/BounceMoveBlock.cs",
+      "path": "BounceHelper/BounceMoveBlock.cs",
+      "sha256": "9c01d125eb7bf1a01e9012499ff8e93166aab296666c3914009d640ac58fa129"
+    },
+    {
+      "entry": "Source/Entities/BounceRefill.cs",
+      "path": "BounceHelper/BounceRefill.cs",
+      "sha256": "0dc4ad2bacce5b44a3b5c159db2e7a8abe17cdd41099ddf1010b3e8e57800ca4"
+    },
+    {
+      "entry": "Source/Entities/BounceSwapBlock.cs",
+      "path": "BounceHelper/BounceSwapBlock.cs",
+      "sha256": "e25c74c2dcb9a4a2218cf2b2758357b217952a8fa19021e62a44e557e347697a"
+    },
+    {
+      "entry": "Source/Entities/BounceZipMover.cs",
+      "path": "BounceHelper/BounceZipMover.cs",
+      "sha256": "5f3a33ed3bada67b7ff99593f88807e3c3c6838de94d9f70bae57dddd8feed58"
+    }
+  ]
+}
